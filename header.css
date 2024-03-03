@@ -22,3 +22,8 @@ header {
 .menu {
     cursor: pointer;
 }
+@media (max-width: 600px) {
+    .left-block .links {
+        display: none;
+    }
+}

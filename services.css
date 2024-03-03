@@ -21,3 +21,8 @@
     line-height: 32px;
     color: #47444E;
 }
+@media (max-width: 780px) {
+    .cards {
+        flex-direction: column;
+    }
+}

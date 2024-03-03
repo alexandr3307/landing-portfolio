@@ -48,9 +48,6 @@ h3 {
     margin-right: auto;
     max-width: 1440px;
     position: relative;
-    @media (max-) {
-        
-    }
 }
 .grey-span {
     color: #666666;
@@ -100,4 +97,18 @@ input[type="text"] {
     font-size: inherit; /* 1 */
     line-height: inherit; /* 1 */
     margin: 0; /* 2 */
+}
+@media (max-width: 1100px) {
+    .container {
+        width: 100%;
+    }
+    .long-container {
+        width: 100%;
+    }
+    h3 {
+        width: 100%;
+    }
+    .container-margin {
+        margin-top: 20px;
+    }
 }

@@ -53,3 +53,13 @@
 }
 .new img {
 }
+@media (max-width: 1100px) {
+    .blog {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    .blog-container {
+        width: 100%;
+    }
+}

@@ -13,3 +13,9 @@
     flex-direction: column;
     margin: auto 0;
 }
+@media (max-width: 1100px) {
+    .hello {
+        width: 100%;
+        background-size: 500px auto;
+    }
+}
