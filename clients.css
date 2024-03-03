@@ -1,0 +1,65 @@
+.clients {
+}
+.clients-cards {
+    display: flex;
+    justify-content: space-between;
+}
+.client-card {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+    padding: 33px 60px;
+    position: relative;
+}
+.purple-card {
+    background: #FFF6FA;
+    border: #FFE7F0 1px solid;
+    border-radius: 10px;
+}
+.green-card {
+    background: #EDFFF5;
+    border: #CAFFE1 1px solid;
+    border-radius: 10px;
+}
+.blue-card {
+    background: #F5FCFF;
+    border: #DDF5FF 1px solid;
+    border-radius: 10px;
+}
+.yellow-card {
+    background: #FFFBF2;
+    border: #FFEEC9 1px solid;
+    border-radius: 10px;
+}
+.light-green-card {
+    background: #F4FFED;
+    border: #DBFFC3 1px solid;
+    border-radius: 10px;
+}
+.blur-purple {
+    background: #FFF6FA;
+}
+.blur-green {
+    background: #EDFFF5;
+}
+.blue-blue {
+    background: #F5FCFF;
+}
+.blur-yellow {
+    background: #FFFBF2;
+}
+.blur-light-green {
+    background: #F4FFED;
+}
+.blur {
+    filter: blur(100px);
+    position: absolute;
+    top: 46px;
+    height: 124px;
+    width: 124px;
+    left: 23px;
+}

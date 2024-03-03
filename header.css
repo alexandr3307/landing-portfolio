@@ -1,0 +1,24 @@
+
+header {
+    display: flex;
+    margin-top: 65px;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+.left-block {
+    display: flex;
+    align-items: center;
+}
+.left-block .links {
+    margin-left: 100px;
+    display: flex;
+    gap: 30px;
+}
+.active {
+    color: #25202F;
+}
+.menu {
+    cursor: pointer;
+}

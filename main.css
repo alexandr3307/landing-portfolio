@@ -1,0 +1,103 @@
+@import "header.css";
+@import "hello.css";
+@import "services.css";
+@import "portfolio.css";
+@import "clients.css";
+@import "testimonials.css";
+@import "blog.css";
+@import "contact.css";
+@import "footer.css";
+
+* {
+    font-family: sans-serif;
+    color: #25202F;
+}
+button {
+    all: unset;
+}
+body {
+}
+a {
+    text-decoration: none;
+    color: #7E7F86;
+}
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0 0 20px;
+}
+
+h2 {
+    font-size: 36px;
+}
+h3 {
+    color: #21232D;
+    font-size: 36px;
+    font-weight: 500;
+    width: 511px;
+    font-family: "Roboto Thin", serif;
+}
+.container {
+    max-width: 1100px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.long-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+    position: relative;
+    @media (max-) {
+        
+    }
+}
+.grey-span {
+    color: #666666;
+    font-size: 24px;
+    font-weight: 500;
+}
+.black-span {
+    font-size: 24px;
+    color: #25202F;
+}
+.purple-button {
+    color: #ffffff;
+    background-color: #8643DC;
+    border-radius: 100px;
+    outline-style: none;
+    height: 60px;
+    padding: 0 49px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.big-margin {
+    margin-top: 50px;
+}
+.medium-margin {
+    margin-top: 20px;
+}
+.title {
+    color: #8643DC;
+    border-bottom: #8643DC solid 2px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    width: 50px;
+    text-wrap: nowrap;
+
+}
+.container-margin {
+    margin-top: 100px;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+input[type="text"] {
+    font-family: inherit; /* 1 */
+    font-size: inherit; /* 1 */
+    line-height: inherit; /* 1 */
+    margin: 0; /* 2 */
+}

@@ -1,0 +1,20 @@
+.footer-container {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(180deg, rgba(187, 133, 255,0.2) 0%, rgba(255, 244, 251,0.2) 100%);
+    padding-bottom: 50px;
+}
+.footer-links {
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #21232D;
+    font-size: 36px;
+}

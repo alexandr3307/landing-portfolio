@@ -1,0 +1,15 @@
+.hello {
+    background-image: url("./img/main-back.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 783px;
+    background-size: auto 100%;
+    display: flex;
+    margin-top: -130px !important;
+    width: 1237px;
+}
+.hello-block {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+}

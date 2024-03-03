@@ -1,0 +1,28 @@
+.portfolio {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 68px;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(187,133,255,0.2) 0%, rgba(255,177,222,0.2) 100%);
+    box-shadow: 0 0 150px 150px white inset;
+}
+
+.portfolios {
+    display: flex;
+    justify-content: space-between;
+}
+
+.explore {
+    position: absolute;
+    right: 0;
+    top: 55px;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.explore a {
+    color: #25202F;
+}
