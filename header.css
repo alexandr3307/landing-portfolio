@@ -1,7 +1,7 @@
 
 header {
     display: flex;
-    margin-top: 65px;
+    padding-top: 65px;
     justify-content: space-between;
     align-items: center;
     font-weight: 500;
@@ -25,5 +25,8 @@ header {
 @media (max-width: 600px) {
     .left-block .links {
         display: none;
+    }
+    header {
+        padding-top: 0 !important;
     }
 }

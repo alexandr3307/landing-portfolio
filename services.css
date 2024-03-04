@@ -1,11 +1,14 @@
 .services {
-    margin-top: -110px;
     font-size: 16px;
+    margin-top: -110px;
 }
 .cards {
     display: flex;
     justify-content: space-between;
     gap: 30px;
+}
+.card {
+    width: 33%;
 }
 .services img {
     width: 62px;
